@@ -11,7 +11,7 @@ def exibir_nome_do_programa():
     ''')
 
 restaurantes = [{'nome':'Praça', 'categoria':'Japonesa', 'ativo':False}, 
-                    {'nome':'Pizza Superma', 'categoria':'Pizza', 'ativo':True},
+                    {'nome':'Pizza Superma', 'categoria':'Pizoooza', 'ativo':True},
                     {'nome':'Cantina', 'categoria':'Italiano', 'ativo':False}]
 
 def exibir_opcoes():
