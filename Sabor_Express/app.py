@@ -11,7 +11,7 @@ def exibir_nome_do_programa():
     ''')
 
 restaurantes = [{'nome':'Praça', 'categoria':'Japonesa', 'ativo':False}, 
-                    {'nome':'Pizza Superma', 'categoria':'Pizoooza', 'ativo':True},
+                    {'nome':'Pizza Superma', 'categoria':'Pizza', 'ativo':True},
                     {'nome':'Cantina', 'categoria':'Italiano', 'ativo':False}]
 
 def exibir_opcoes():
@@ -39,7 +39,7 @@ def opcao_invalida():
 def cadastrar_novo_restaurante():
     '''Essa função é responsável por cadastrar um novo restaurante'''
     exibir_subtitulo('Cadastro de novos restaurantes\n')
-    nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
+    nome_do_restaurante = input('Digite o nomes do restaurante que deseja cadastrar: ')
     categoria_do_restaurante = input(f'Digite a categoria do restaurante {nome_do_restaurante} : ')
     dados_do_restaurante = {'nome':nome_do_restaurante, 'categoria':categoria_do_restaurante, 'ativo':False}
     restaurantes.append(dados_do_restaurante)
