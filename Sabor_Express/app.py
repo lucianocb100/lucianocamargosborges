@@ -12,7 +12,7 @@ def exibir_nome_do_programa():
 
 restaurantes = [{'nome':'Praça', 'categoria':'Japonesa', 'ativo':False}, 
                     {'nome':'Pizza Superma', 'categoria':'Pizza', 'ativo':True},
-                    {'nome':'Ciíjantina', 'categoria':'Italiano', 'ativo':False}]
+                    {'nome':'Ciíjantina', 'categorbgffbia':'Italiano', 'ativo':False}]
 
 def exibir_opcoes():
     print('1. Cadastrar restaurante')
